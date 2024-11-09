@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вкусные рецепты</title>
+    <link rel="stylesheet" href="rezipesStyle.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Вкусные рецепты 🥗</h1>
+    </header>
+
+    <div class="filter">
+        <button class="filter__button filter__button--active" data-category="all">Все рецепты</button>
+        <button class="filter__button" data-category="breakfast">Завтраки</button>
+        <button class="filter__button" data-category="lunch">Обеды</button>
+        <button class="filter__button" data-category="dinner">Ужины</button>
+        <button class="filter__button" data-category="dessert">Десерты</button>
+    </div>
+
+    <div class="recipes">
+    </div>
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__section">
+                <h3 class="footer__title">Контакты</h3>
+                <p class="footer__text">Телефон: +7 (999) 123-45-67</p>
+                <p class="footer__text">Email: recipes@example.com</p>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__title">Предложить рецепт</h3>
+                <p class="footer__text">У вас есть отличный рецепт? Поделитесь им с нами!</p>
+                <form class="footer__form">
+                    <input type="email" class="footer__input" placeholder="Ваш email">
+                    <button type="submit" class="footer__button">Отправить</button>
+                </form>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__title">О нас</h3>
+                <p class="footer__text">Мы собираем лучшие рецепты со всего мира, чтобы вы могли порадовать себя и своих близких вкусными блюдами.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
